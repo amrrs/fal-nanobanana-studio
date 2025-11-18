@@ -2,6 +2,8 @@
 
 A modern, AI-powered image editor alternative to Photoshop/Photopea, powered by Google's nanobanana API from fal.ai.
 
+![NanoBanana Studio Screenshot](./screenshot.png)
+
 ## Features
 
 - 🎨 **AI-Powered Image Editing**: Edit images using natural language prompts
