@@ -9,7 +9,7 @@ A modern, AI-powered image editor alternative to Photoshop/Photopea, powered by 
 - 🎨 **AI-Powered Image Editing**: Edit images using natural language prompts
 - ✨ **Image Generation**: Generate new images from text descriptions
 - 🖼️ **Intuitive UI**: Clean, modern interface inspired by professional image editors
-- ⚡ **Fast Processing**: Leverages Google's Gemini 2.5 Flash Image model
+- ⚡ **Model Switcher**: Toggle between NanoBanana and [NanoBanana Pro](https://fal.ai/models/fal-ai/nano-banana-pro/edit/api) on the fly
 - 💾 **Easy Export**: Download your edited images with one click
 
 ## Prerequisites
@@ -64,7 +64,12 @@ npm run dev
 
 ## API Configuration
 
-**Important:** The application uses fal.ai's nanobanana API - [https://fal.ai/models/fal-ai/nano-banana/edit/api](https://fal.ai/models/fal-ai/nano-banana/edit/api). If fal.ai uses a different endpoint format, you may need to update the URL in the server code.
+**Important:** The application uses fal.ai's NanoBanana APIs:
+
+- Standard: [NanoBanana Edit](https://fal.ai/models/fal-ai/nano-banana/edit/api)
+- Pro tier: [NanoBanana Pro Edit](https://fal.ai/models/fal-ai/nano-banana-pro/edit/api)
+
+Select your model in the UI, and the backend automatically routes to the appropriate endpoint. If fal.ai updates these URLs, adjust `MODEL_ENDPOINTS` in `backend/server.js`.
 
 To verify the correct endpoint:
 1. Check the [fal.ai documentation](https://fal.ai/models)

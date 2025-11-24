@@ -1116,7 +1116,7 @@ const registerLayer = useCallback(
           <Sparkles className="brand-icon" size={20} />
           <div>
             <p className="brand-title">NanoBanana Studio</p>
-            <span className="brand-subtitle">Gemini 2.5 Flash • fal.ai</span>
+            <span className="brand-subtitle">NanoBanana & Pro • fal.ai</span>
           </div>
         </div>
 
